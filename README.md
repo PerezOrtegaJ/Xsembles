@@ -1,2 +1,2 @@
-# Ensemblex
-Neuronal ensembles extraction tool
+# Xsembles
+Tool for identifying neuronal ensembles and their associated neuronal offsembles.

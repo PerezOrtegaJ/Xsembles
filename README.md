@@ -2,7 +2,7 @@
 **Xsembles** is a tool for identifying neuronal ensembles and their associated offsembles from a recording of population neuronal activity. The MATLAB function to use it is `Get_Xsembles.m`.
 
 ## Demo to run Xsembles
-You will need the `raster` variable representing the population neuronal activity, which is a binary matrix (0 = inactivity; 1 = activity) where each column represents a time point and each row represents the activity of a neuron. As an example, you can load our *raster* obtained from experimental data from the file `raster_example.mat` into the MATLAB worskpace:
+You will need a `raster` variable representing the population neuronal activity, which should be a binary matrix (0 = inactivity; 1 = activity) where each column represents a time point and each row represents the activity of a neuron. As an example, you can load our *raster* obtained from experimental data from the file `raster_example.mat` into the MATLAB worskpace:
 ```matlab
 load raster_example.mat
 ```
